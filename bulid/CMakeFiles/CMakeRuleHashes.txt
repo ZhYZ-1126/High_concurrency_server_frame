@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+2d425c8a8b92388d85284ecfe6ab4e61 ../HCServer/http/http11_parser.rl.cc
+707b366e694ad9e49f85e2f890b0dbf6 ../HCServer/http/httpclient_parser.rl.cc
+6144c585d419d44eb0825897f76f1120 ../HCServer/http/uri.rl.cc
+ecf38eeaefd6eb3c58145ae3abfaa657 ../HCServer/uri.rl.cc

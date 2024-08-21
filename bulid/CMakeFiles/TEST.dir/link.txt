@@ -1,0 +1,1 @@
+/bin/c++   -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Wno-unused-function -Wno-builtin-macro-redefined  -rdynamic CMakeFiles/TEST.dir/test/TEST.cc.o  -o ../bin/TEST -Wl,-rpath,/home/zhangyanzhou/HCServer/lib ../lib/libHCServer.so 
