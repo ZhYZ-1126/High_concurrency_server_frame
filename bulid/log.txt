@@ -1,2 +1,0 @@
-2024-07-14 15:23:51	37996	0	[DEBUG]	[zhangyanzhou]	test/test.cc:26	test fmt error aa
-2024-07-14 15:23:51	ERROR	test error std
