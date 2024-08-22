@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhangyanzhou/HCServer/test/TEST.cc
+iostream
+-
+boost/lexical_cast.hpp
+/home/zhangyanzhou/HCServer/test/boost/lexical_cast.hpp
+

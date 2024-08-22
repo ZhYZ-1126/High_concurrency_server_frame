@@ -1,0 +1,43 @@
+2024-08-06 13:50:57	name=class.vec_map description=system map person typename=St3mapISsSt6vectorI6PersonSaIS1_EESt4lessISsESaISt4pairIKSsS3_EEE value=
+2024-08-06 13:50:57	name=system.string_int_unordered_map description=system string int unordered map typename=St13unordered_mapISsiSt4hashISsESt8equal_toISsESaISt4pairIKSsiEEE value=k: 1
+2024-08-06 13:50:57	name=class.person description=system person typename=6Person value=name: " "
+age: 18
+sex: 女
+2024-08-06 13:50:57	name=system.string_int_map description=system string int map typename=St3mapISsiSt4lessISsESaISt4pairIKSsiEEE value=k: 1
+2024-08-06 13:50:57	name=system.int_unordered_set description=system int unordered_set typename=St13unordered_setIiSt4hashIiESt8equal_toIiESaIiEE value=- 22
+- 11
+2024-08-06 13:50:57	name=class.map description=system map person typename=St3mapISs6PersonSt4lessISsESaISt4pairIKSsS0_EEE value=
+2024-08-06 13:50:57	name=system.int_set description=system int set typename=St3setIiSt4lessIiESaIiEE value=- 11
+- 22
+2024-08-06 13:50:57	name=fiber.stack_size description=fiber stack size typename=j value=1048576
+2024-08-06 13:50:57	name=system.int_list description=system int list typename=St4listIiSaIiEE value=- 10
+- 20
+2024-08-06 13:50:57	name=http.request.buffer_size description=http request buffer size typename=m value=4096
+2024-08-06 13:50:57	name=tcp.connect.timeout description=tcp connect timeout typename=i value=5000
+2024-08-06 13:50:57	name=system.int_vec description=system int vec typename=St6vectorIiSaIiEE value=- 1
+- 2
+2024-08-06 13:50:57	name=http.response.max_body_size description=http response max body size typename=m value=67108864
+2024-08-06 13:50:57	name=http.request.max_body_size description=http request max body size typename=m value=67108864
+2024-08-06 13:50:57	name=http.response.buffer_size description=http response buffer size typename=m value=4096
+2024-08-06 13:50:57	name=tcp_server.read_timeout description=tcp server read timeout typename=m value=120000
+2024-08-06 13:50:57	name=logs description=log define typename=St3setIN8HCServer9LogDefineESt4lessIS1_ESaIS1_EE value=- name: root
+  level: INFO
+  formatter: "%d%T%m%n"
+  appenders:
+    - type: FileLogAppender
+      filename: root_log.txt
+      level: UNKNOW
+    - type: StdOutLogAppender
+      level: UNKNOW
+- name: system
+  level: DEBUG
+  formatter: "%d%T[%p]%T%m%n"
+  appenders:
+    - type: FileLogAppender
+      filename: system_log.txt
+      level: UNKNOW
+      formatter: "%d%T%t%T%F%T[%p]%T%m%n"
+    - type: StdOutLogAppender
+      level: UNKNOW
+2024-08-06 13:50:57	name=system.int description=system port typename=i value=8080
+2024-08-06 13:50:57	name=system.float description=system value typename=f value=10.1999998
